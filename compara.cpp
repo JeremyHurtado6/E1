@@ -1,17 +1,19 @@
+//modifcado por jeremy hurtado gaspar
+//01-09-2022
 #include<iostream>
 using namespace std;
 int main()
 {
-  float j,a;
+  float j,h;
   cout<<"Ingrese j  : "; cin>>j;
-  cout<<"Ingrese a  : "; cin>>a;
-  if(j==a){
+  cout<<"Ingrese h  : "; cin>>h;
+  if(j==h){
      cout<<"Son iguales"<<endl;
   }else{
-     if(j<a){
-       cout<<j<<" es el menor que "<<a<<"\n";
+     if(j<h){
+       cout<<j<<" es el menor que "<<h<<"\n";
      }else{
-       cout<<a<<" es el menor que "<<j<<"\n";
+       cout<<h<<" es el menor que "<<j<<"\n";
      }
   }
 
